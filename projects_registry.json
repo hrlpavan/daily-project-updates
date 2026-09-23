@@ -1,0 +1,1469 @@
+[
+  {
+    "id": 1,
+    "filename": "01-aether-engine.md",
+    "name": "aether-engine",
+    "title": "Aether Engine",
+    "category": "AI / Systems Engineering",
+    "desc": "High-Performance Distributed AI Inference, Vector Routing & State Engine in C++20 and Python.",
+    "html_url": "https://github.com/hrlpavan/aether-engine",
+    "primary_lang": "C++",
+    "languages": [
+      "C++",
+      "Python",
+      "Makefile"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-31",
+    "highlights": [
+      "Sub-millisecond low-latency inference dispatch pipeline",
+      "C++20 SIMD-accelerated vector similarity routing",
+      "Shared-memory zero-copy IPC ring buffers",
+      "Deterministic distributed state synchronization"
+    ],
+    "tech_stack": [
+      "C++20",
+      "Python 3.12",
+      "CMake",
+      "SIMD (AVX-512)",
+      "POSIX IPC",
+      "ZeroMQ"
+    ],
+    "summary": "Aether Engine is an ultra-low latency inference and state machine built for demanding real-time agentic and simulation workloads. It bridges native C++ performance with high-level Python bindings for distributed AI routing."
+  },
+  {
+    "id": 2,
+    "filename": "02-hrl-lang.md",
+    "name": "hrl-lang",
+    "title": "HRL Programming Language",
+    "category": "Programming Languages & Compilers",
+    "desc": "Hierarchical Reasoning Language (HRL) - A Domain-Specific Programming Language for LLMs, Multi-Agent Systems, and Antigravity.",
+    "html_url": "https://github.com/hrlpavan/hrl-lang",
+    "primary_lang": "Python",
+    "languages": [
+      "Python",
+      "HTML",
+      "JavaScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-01",
+    "highlights": [
+      "Custom Lexer, Parser, and AST compiler tailored for prompt semantics",
+      "Deterministic constraint validation for agentic reasoning loops",
+      "Native primitives for inter-agent communication and task delegation",
+      "Seamless execution integration with Google Antigravity framework"
+    ],
+    "tech_stack": [
+      "Python 3.12",
+      "PLY / Lex-Yacc",
+      "AST",
+      "LLM APIs",
+      "Antigravity SDK"
+    ],
+    "summary": "HRL is a specialized domain-specific language designed to elevate LLM orchestration from unstructured prompting to deterministic, verifiable programming logic with hierarchical reasoning trees."
+  },
+  {
+    "id": 3,
+    "filename": "03-hrl-project-extreme.md",
+    "name": "hrl-project-extreme",
+    "title": "HRL Project Extreme",
+    "category": "AI & Reinforcement Learning",
+    "desc": "High-Capacity Hierarchical Reinforcement Learning Engine for Long-Horizon Autonomy.",
+    "html_url": "https://github.com/hrlpavan/hrl-project-extreme",
+    "primary_lang": "HTML",
+    "languages": [
+      "HTML",
+      "Python",
+      "JavaScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-31",
+    "highlights": [
+      "Multi-tier policy hierarchy (Manager / Worker paradigm)",
+      "Temporal abstraction allowing 10,000+ step horizon planning",
+      "Goal-conditioned value functions with intrinsic curiosity rewards",
+      "Interactive visualization of agent trajectory distributions"
+    ],
+    "tech_stack": [
+      "Python",
+      "PyTorch",
+      "Gymnasium",
+      "Three.js",
+      "WebSockets"
+    ],
+    "summary": "An enterprise-grade reinforcement learning framework tackling sparse-reward, long-horizon control problems through temporal abstraction and hierarchical policy decomposition."
+  },
+  {
+    "id": 4,
+    "filename": "04-omnitransform-ai-resources.md",
+    "name": "omnitransform-ai-resources",
+    "title": "OmniTransform AI",
+    "category": "AI / Hackathons & Innovation",
+    "desc": "OmniTransform AI (SIH 2026 PS ID 26154) \u2014 Complete Resource Bundle: Datasets, Model Setup, Slide Decks, Architecture, and Pipeline Code.",
+    "html_url": "https://github.com/hrlpavan/omnitransform-ai-resources",
+    "primary_lang": "TypeScript",
+    "languages": [
+      "TypeScript",
+      "Python",
+      "CSS",
+      "HTML",
+      "JavaScript",
+      "Shell"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-29",
+    "highlights": [
+      "Official Smart India Hackathon (SIH 2026) solution repository",
+      "Multi-modal generative transformation pipeline",
+      "Production-ready deployment recipes with automated preprocessing",
+      "Comprehensive presentation decks, architectural diagrams, and benchmarks"
+    ],
+    "tech_stack": [
+      "TypeScript",
+      "Next.js",
+      "FastAPI",
+      "PyTorch",
+      "TailwindCSS"
+    ],
+    "summary": "A flagship hackathon package uniting deep learning architectures, automated ETL pipelines, and high-impact UI for solving complex national-scale media and data processing challenges."
+  },
+  {
+    "id": 5,
+    "filename": "05-skills.md",
+    "name": "skills",
+    "title": "Google Antigravity Master Skills Catalog",
+    "category": "Agentic AI & Customizations",
+    "desc": "Comprehensive Master Skills Directory & Capabilities Catalog for Google Antigravity & Advanced Agentic AI.",
+    "html_url": "https://github.com/hrlpavan/skills",
+    "primary_lang": "JavaScript",
+    "languages": [
+      "JavaScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-27",
+    "highlights": [
+      "50+ production-tested agent skill specifications",
+      "Declarative schema definition and parameter validation hooks",
+      "Zero-dependency tool execution runners",
+      "Comprehensive taxonomy of developer, database, and devops skills"
+    ],
+    "tech_stack": [
+      "JavaScript",
+      "JSON Schema",
+      "Antigravity SDK",
+      "Markdown"
+    ],
+    "summary": "The definitive skills repository expanding Google Antigravity agents into autonomous multi-system operators capable of complex engineering, testing, and cloud infrastructure tasks."
+  },
+  {
+    "id": 6,
+    "filename": "06-sih-2026-media-problem-statements.md",
+    "name": "sih-2026-media-problem-statements",
+    "title": "SIH 2026 Media Problem Statements",
+    "category": "Hackathons & Strategy",
+    "desc": "Smart India Hackathon (SIH 2026) Media & Related Problem Statements Guide & Dataset.",
+    "html_url": "https://github.com/hrlpavan/sih-2026-media-problem-statements",
+    "primary_lang": "Python",
+    "languages": [
+      "Python",
+      "TypeScript",
+      "CSS",
+      "JavaScript",
+      "HTML"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-26",
+    "highlights": [
+      "Deep architectural breakdown of Ministry and Industry statements",
+      "Feature-feasibility matrices and novelty scoring models",
+      "Curated open datasets and verification pipelines",
+      "Ready-to-deploy prototype foundations"
+    ],
+    "tech_stack": [
+      "Python",
+      "Jupyter",
+      "Pandas",
+      "Markdown",
+      "HTML5"
+    ],
+    "summary": "A strategic and technical research repository providing problem statement breakdowns, competitive intelligence, and prototype architectures for SIH 2026 competitors."
+  },
+  {
+    "id": 7,
+    "filename": "07-hrl-v12-engine.md",
+    "name": "hrl-v12-engine",
+    "title": "HRL V12 Engine 3D Simulation",
+    "category": "3D Graphics & Mechanical Simulation",
+    "desc": "Interactive 3D WebGL 60\u00b0 Quad-Cam 48-Valve V12 Four-Stroke Racing Engine simulation with real-time procedural Web Audio synthesis and analytical telemetry by HRL Labs.",
+    "html_url": "https://github.com/hrlpavan/hrl-v12-engine",
+    "primary_lang": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "C",
+      "Python",
+      "Go",
+      "Rust",
+      "Zig",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-08",
+    "highlights": [
+      "Kinematically accurate 60\u00b0 Quad-Cam 48-Valve V12 mechanical simulation",
+      "Procedural Web Audio engine acoustics simulating exhaust pulses and harmonics",
+      "Real-time PV diagram, thermal stress, and RPM telemetry HUD",
+      "Cross-language computational cores implemented in C, Rust, Zig, Go, and JS"
+    ],
+    "tech_stack": [
+      "WebGL",
+      "Three.js",
+      "Web Audio API",
+      "Rust (Wasm)",
+      "Zig",
+      "C"
+    ],
+    "summary": "An astonishing browser-based digital twin of a Formula 1-grade V12 racing engine. Features accurate four-stroke Otto cycle thermodynamics, real-time procedural audio synthesis, and telemetry telemetry."
+  },
+  {
+    "id": 8,
+    "filename": "08-hrl-x-rolls-royce.md",
+    "name": "hrl-x-rolls-royce",
+    "title": "HRL x Rolls-Royce V12 Digital Twin",
+    "category": "Automotive Engineering & Digital Twins",
+    "desc": "HRL x Rolls-Royce \u2014 6\u00beL Twin-Turbo V12 Interactive 3D CAD & Ganesan Thermodynamics Powertrain Digital Twin Platform.",
+    "html_url": "https://github.com/hrlpavan/hrl-x-rolls-royce",
+    "primary_lang": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "CSS",
+      "C",
+      "Python",
+      "Go",
+      "Rust",
+      "Zig",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-09",
+    "highlights": [
+      "High-precision 6\u00be-litre twin-turbocharged V12 CAD visualizer",
+      "Ganesan internal combustion thermodynamic cycle modeling",
+      "P-V and T-S state calculations with boost pressure regulation",
+      "Luxury cabin acoustic isolation simulation"
+    ],
+    "tech_stack": [
+      "Three.js",
+      "WebAudio",
+      "Thermodynamics Solver",
+      "JavaScript",
+      "GLSL Shaders"
+    ],
+    "summary": "A precision luxury automotive engineering twin combining physical CAD kinematics with Ganesan thermodynamic cycle calculations to model Rolls-Royce's legendary 6.75L V12 powertrain."
+  },
+  {
+    "id": 9,
+    "filename": "09-hrl-x-noise-cancellation.md",
+    "name": "hrl-x-noise-cancellation",
+    "title": "HRL X Noise Cancellation DSP",
+    "category": "Audio DSP & Speech Enhancement",
+    "desc": "HRL X Noise Cancellation: High-performance Acoustic Noise Suppression & Real-Time DSP Audio Processing Engine.",
+    "html_url": "https://github.com/hrlpavan/hrl-x-noise-cancellation",
+    "primary_lang": "HTML",
+    "languages": [
+      "HTML",
+      "Python",
+      "Swift",
+      "Shell"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-12",
+    "highlights": [
+      "Dual-microphone adaptive LMS (Least Mean Squares) filter pipeline",
+      "Spectral subtraction with dynamic noise floor estimation",
+      "Real-time low-latency audio stream processing (<15ms)",
+      "Native Swift and Web Audio implementations"
+    ],
+    "tech_stack": [
+      "Web Audio DSP",
+      "Python (NumPy / SciPy)",
+      "Swift (Accelerate)",
+      "WebRTC"
+    ],
+    "summary": "A real-time digital signal processing engine engineered to cancel ambient acoustic disturbances while preserving vocal timbre through adaptive filtering and deep spectral subtraction."
+  },
+  {
+    "id": 10,
+    "filename": "10-nvedia-project-by-hrl.md",
+    "name": "nvedia-project-by-hrl",
+    "title": "NVIDIA Accelerated Platform by HRL",
+    "category": "GPU Acceleration & High Performance Computing",
+    "desc": "NVIDIA Accelerated Computing & Parallel Architecture Demonstration Platform by HRL.",
+    "html_url": "https://github.com/hrlpavan/nvedia-project-by-hrl",
+    "primary_lang": "HTML",
+    "languages": [
+      "HTML",
+      "C++",
+      "Python",
+      "Cuda",
+      "CMake",
+      "Shell"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-02",
+    "highlights": [
+      "Custom CUDA kernels for matrix tiling and fused attention",
+      "TensorRT inference optimization and FP16/INT8 quantization benchmarks",
+      "Unified virtual memory memory-bound workload profiling",
+      "Interactive hardware capability and warp occupancy visualizer"
+    ],
+    "tech_stack": [
+      "CUDA",
+      "C++20",
+      "TensorRT",
+      "CMake",
+      "Python",
+      "HTML5 HUD"
+    ],
+    "summary": "A dedicated high-performance computing showcase exploring cutting-edge CUDA optimization, memory hierarchy exploitation, and GPU acceleration for next-generation AI workloads."
+  },
+  {
+    "id": 11,
+    "filename": "11-AutoSubs-For-Resolve.md",
+    "name": "AutoSubs-For-Resolve",
+    "title": "AutoSubs For DaVinci Resolve",
+    "category": "Creative Tools & Video Automation",
+    "desc": "Automated AI Subtitle and Caption Generator for DaVinci Resolve Studio.",
+    "html_url": "https://github.com/hrlpavan/AutoSubs-For-Resolve",
+    "primary_lang": "Python / Lua",
+    "languages": [
+      "Python",
+      "Lua",
+      "DaVinci Resolve API"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-09",
+    "highlights": [
+      "Direct DaVinci Resolve timeline audio track extraction",
+      "Local Whisper model inference with zero external cloud cost",
+      "Automated word-by-word subtitle track generation directly into timeline",
+      "Custom text styling and animation preset injection"
+    ],
+    "tech_stack": [
+      "Python",
+      "DaVinci Resolve Scripting API",
+      "OpenAI Whisper",
+      "FFmpeg"
+    ],
+    "summary": "An essential workflow productivity tool for video creators that extracts timeline audio, runs automated speech recognition, and builds animated subtitles natively inside DaVinci Resolve."
+  },
+  {
+    "id": 12,
+    "filename": "12-HRL-X-DaVinci-Resolve-21.md",
+    "name": "HRL-X-DaVinci-Resolve-21",
+    "title": "HRL X DaVinci Resolve 21",
+    "category": "Creative Tools & Post-Production",
+    "desc": "Comprehensive Workflow Automation, Macro Suite, and Pipeline Scripts for DaVinci Resolve 21.",
+    "html_url": "https://github.com/hrlpavan/HRL-X-DaVinci-Resolve-21",
+    "primary_lang": "Lua / Python",
+    "languages": [
+      "Lua",
+      "Python",
+      "DaVinci Resolve Studio 21"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-09",
+    "highlights": [
+      "Native Fusion macro libraries for motion graphics and transitions",
+      "Batch export and render queue automation",
+      "Automated project archival and media management tools",
+      "Optimized for Apple Silicon hardware acceleration"
+    ],
+    "tech_stack": [
+      "DaVinci Resolve Studio",
+      "Lua",
+      "Fusion Macros",
+      "Python"
+    ],
+    "summary": "A complete post-production enhancement suite delivering professional Fusion macros, automated rendering routines, and timeline utilities for DaVinci Resolve 21 editors."
+  },
+  {
+    "id": 13,
+    "filename": "13-HRL-s-Plugin-For-DaVinci-Resolve-21.md",
+    "name": "HRL-s-Plugin-For-DaVinci-Resolve-21",
+    "title": "HRL's Official DaVinci Resolve Plugin",
+    "category": "Creative Tools & Video Extensions",
+    "desc": "Dedicated HRL Studio Plugin and Custom Effects Generator for DaVinci Resolve 21.",
+    "html_url": "https://github.com/hrlpavan/HRL-s-Plugin-For-DaVinci-Resolve-21",
+    "primary_lang": "Python",
+    "languages": [
+      "Python",
+      "OpenFX / Scripting"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-16",
+    "highlights": [
+      "Seamless one-click installation into DaVinci Resolve Application Support",
+      "Preset grading nodes and color science transforms",
+      "Audio-reactive visual effect generators",
+      "Streamlined UI within Resolve's Workspace scripts"
+    ],
+    "tech_stack": [
+      "Python 3",
+      "DaVinci Resolve Studio",
+      "Fusion API"
+    ],
+    "summary": "The proprietary HRL production plugin delivering tailored visual presets, automated grading node trees, and dynamic motion transitions directly inside DaVinci Resolve 21."
+  },
+  {
+    "id": 14,
+    "filename": "14-HRL-X-LUT-FILE.md",
+    "name": "HRL-X-LUT-FILE",
+    "title": "HRL Cinematic LUT Library",
+    "category": "Color Grading & Cinematic Assets",
+    "desc": "Professional Cinematic 3D LUT grading packs & color space transformation curves.",
+    "html_url": "https://github.com/hrlpavan/HRL-X-LUT-FILE",
+    "primary_lang": "LUT / Cube",
+    "languages": [
+      ".cube",
+      "DaVinci Color Science"
+    ],
+    "visibility": "Private",
+    "created_at": "2026-08-09",
+    "highlights": [
+      "Custom 33x33x33 and 65x65x65 3D Cube LUTs",
+      "Targeted transforms for ARRI LogC3/LogC4, Sony S-Log3, and BMD Film Gen 5",
+      "Accurate highlight roll-off and skin tone preservation",
+      "Hollywood film emulation profiles (Kodak 2383 / Fuji 3513 inspired)"
+    ],
+    "tech_stack": [
+      "3D LUTs (.cube)",
+      "DaVinci Resolve Color Management",
+      "ACEScc"
+    ],
+    "summary": "A proprietary studio asset library containing calibrated 3D LUTs crafted for high-end digital cinema cameras, commercial grading, and broadcast delivery."
+  },
+  {
+    "id": 15,
+    "filename": "15-HRL-X-REALESTATE-STYLE-PREBUILT-CAPTION.md",
+    "name": "HRL-X-REALESTATE-STYLE-PREBUILT-CAPTION",
+    "title": "HRL Real Estate Dynamic Captions",
+    "category": "Motion Graphics & Social Video",
+    "desc": "High-Retention Real-Estate & Social Media Prebuilt Kinetic Caption Templates.",
+    "html_url": "https://github.com/hrlpavan/HRL-X-REALESTATE-STYLE-PREBUILT-CAPTION",
+    "primary_lang": "Fusion Setting / Motion",
+    "languages": [
+      ".setting",
+      "Fusion Motion Graphics"
+    ],
+    "visibility": "Private",
+    "created_at": "2026-08-09",
+    "highlights": [
+      "High-impact kinetic typography tailored for luxury real estate walkthroughs",
+      "Auto-resizing text containers and dynamic highlight animations",
+      "Pre-timed keyframe easings for 9:16 vertical short-form content",
+      "One-click drag-and-drop integration onto DaVinci Resolve timelines"
+    ],
+    "tech_stack": [
+      "Fusion .setting",
+      "Keyframe Animation",
+      "DaVinci Resolve"
+    ],
+    "summary": "An optimized collection of kinetic caption and motion graphics templates designed specifically to elevate commercial real estate videos and short-form social content."
+  },
+  {
+    "id": 16,
+    "filename": "16-hrl-x-rohan-corporation.md",
+    "name": "hrl-x-rohan-corporation",
+    "title": "HRL x Rohan Corporation PropTech",
+    "category": "PropTech & Enterprise Web",
+    "desc": "Next-Generation PropTech, Smart Real Estate & Digital Architecture Platform uniting HRL International and Rohan Corporation.",
+    "html_url": "https://github.com/hrlpavan/hrl-x-rohan-corporation",
+    "primary_lang": "HTML",
+    "languages": [
+      "HTML",
+      "JavaScript",
+      "CSS",
+      "Python",
+      "Shell"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-04",
+    "highlights": [
+      "Interactive luxury real estate portfolio with 3D floor plan integration",
+      "Algorithmic mortgage, EMI, and investment ROI calculators",
+      "Dynamic lead qualification and booking management flow",
+      "Enterprise-grade responsive design with luxury architectural aesthetic"
+    ],
+    "tech_stack": [
+      "HTML5",
+      "CSS3 / Modern Typography",
+      "JavaScript ES6+",
+      "Python"
+    ],
+    "summary": "A state-of-the-art commercial PropTech web platform bridging high-end real estate development with interactive digital architecture and client engagement tools."
+  },
+  {
+    "id": 17,
+    "filename": "17-hrl-international-website.md",
+    "name": "hrl-international-website-",
+    "title": "HRL International Enterprise Portal",
+    "category": "Corporate Web & Enterprise Architecture",
+    "desc": "Official Enterprise Web Portal and Corporate Platform for HRL International Pvt. Ltd.",
+    "html_url": "https://github.com/hrlpavan/hrl-international-website-",
+    "primary_lang": "HTML",
+    "languages": [
+      "HTML",
+      "JavaScript",
+      "Python"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-25",
+    "highlights": [
+      "Corporate overview detailing technology divisions, AI research, and studio operations",
+      "Interactive leadership and company manifesto showcases",
+      "SEO-optimized and accessibility-compliant front-end architecture",
+      "Secure contact and business inquiry dispatch service"
+    ],
+    "tech_stack": [
+      "HTML5",
+      "Vanilla JavaScript",
+      "Modern CSS",
+      "Python"
+    ],
+    "summary": "The flagship web portal representing HRL International Pvt. Ltd., presenting the company's multi-disciplinary engineering capabilities, enterprise ventures, and AI roadmap."
+  },
+  {
+    "id": 18,
+    "filename": "18-HRL-INTERNATIONAL-PVT-LTD-FILES.md",
+    "name": "HRL-INTERNATIONAL-PVT.LTD.-FILES",
+    "title": "HRL International Enterprise Files",
+    "category": "Enterprise Operations & Legal Charters",
+    "desc": "Enterprise corporate assets, governance documents, legal charters, and operational blueprints.",
+    "html_url": "https://github.com/hrlpavan/HRL-INTERNATIONAL-PVT.LTD.-FILES",
+    "primary_lang": "Corporate Assets",
+    "languages": [
+      "Documentation",
+      "Legal / Charters"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-04",
+    "highlights": [
+      "Corporate organizational hierarchy and operating bylaws",
+      "Intellectual property assignment frameworks and trademark docs",
+      "Standard operating procedures (SOPs) for multi-team delivery",
+      "Strategic roadmap documents and executive minutes"
+    ],
+    "tech_stack": [
+      "Markdown",
+      "PDF Documentation",
+      "Corporate Charters"
+    ],
+    "summary": "The authoritative internal repository safeguarding corporate governance, corporate charters, IP protection policies, and organizational frameworks for HRL International."
+  },
+  {
+    "id": 19,
+    "filename": "19-Documents-Logo-s-and-Files.md",
+    "name": "Documents-Logo-s-and-Files",
+    "title": "Brand Identity & Corporate Design Assets",
+    "category": "Brand Identity & Graphic Assets",
+    "desc": "Official Brand Identity, Vector Graphics & High-Resolution Corporate Design Assets.",
+    "html_url": "https://github.com/hrlpavan/Documents-Logo-s-and-Files",
+    "primary_lang": "Design Assets",
+    "languages": [
+      "Vector SVG",
+      "PNG",
+      "Design Guidelines"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-28",
+    "highlights": [
+      "Master vector logo files for HRL, HRL Labs, and sub-brands",
+      "Brand color palettes, typography specifications, and spacing guides",
+      "High-resolution watermarks and media kit collateral",
+      "Social media banner packs and presentation templates"
+    ],
+    "tech_stack": [
+      "SVG",
+      "Adobe Illustrator / Affinity",
+      "PNG Assets"
+    ],
+    "summary": "The master design repository maintaining brand consistency, corporate logos, vector marks, and visual design guidelines across all HRL digital and physical touchpoints."
+  },
+  {
+    "id": 20,
+    "filename": "20-engineering-compensation-blueprint.md",
+    "name": "engineering-compensation-blueprint",
+    "title": "Engineering Compensation Blueprint",
+    "category": "Executive Strategy & Career Architecture",
+    "desc": "Official Statement of Compensation, Hiring Terms & Career Valuation Blueprint \u2014 Pavan Kumar Sadashiv.",
+    "html_url": "https://github.com/hrlpavan/engineering-compensation-blueprint",
+    "primary_lang": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-30",
+    "highlights": [
+      "Detailed mathematical formula for 100x engineer productivity valuation",
+      "Comprehensive equity, IP carve-out, and governance requirements",
+      "Leadership terms for Chief Architect and CTO advisory roles",
+      "Executive web presentation with dynamic calculations"
+    ],
+    "tech_stack": [
+      "HTML5",
+      "Modern CSS",
+      "Mathematical Valuation Models"
+    ],
+    "summary": "A groundbreaking blueprint establishing transparent, value-driven hiring terms, career valuation metrics, and intellectual governance standards for top-tier engineering leadership."
+  },
+  {
+    "id": 21,
+    "filename": "21-rule-breaking-v2-book.md",
+    "name": "rule-breaking-v2-book",
+    "title": "RULE BREAKING (Version 2.0)",
+    "category": "Books & Leadership Manifestos",
+    "desc": "RULE BREAKING (Version 2.0) \u2014 The 100x AI Chief Architect Manifesto by Pavan Kumar Sadashiv (HRL). Master Patent & Global Publication Edition.",
+    "html_url": "https://github.com/hrlpavan/rule-breaking-v2-book",
+    "primary_lang": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-31",
+    "highlights": [
+      "The 100x Engineer Manifesto: Moving beyond conventional software development",
+      "Architectural principles for autonomous AI-driven systems",
+      "Disruptive strategy for breaking obsolete enterprise software hierarchies",
+      "Interactive web-reader edition with chapter navigation and annotations"
+    ],
+    "tech_stack": [
+      "HTML5",
+      "CSS Typography",
+      "Interactive UI"
+    ],
+    "summary": "An audacious and comprehensive technical manifesto detailing the paradigm shifts required to build world-class, AI-first technologies while dismantling bureaucratic inefficiencies."
+  },
+  {
+    "id": 22,
+    "filename": "22-hrl-executive-career-archive.md",
+    "name": "hrl-executive-career-archive",
+    "title": "HRL Executive Career Archive",
+    "category": "Executive Archives & Career Valuation",
+    "desc": "Private Master Archive: Comprehensive Career Valuation, 100x Architecture Blueprint, and Operations Log \u2014 Pavan Kumar Sadashiv.",
+    "html_url": "https://github.com/hrlpavan/hrl-executive-career-archive",
+    "primary_lang": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "visibility": "Private",
+    "created_at": "2026-09-01",
+    "highlights": [
+      "Private master repository documenting end-to-end technical deliverables",
+      "Audited project milestones, architectural decisions, and patents",
+      "Executive operations log tracking multi-organization leadership",
+      "Verifiable timeline of technical breakthroughs and team accomplishments"
+    ],
+    "tech_stack": [
+      "HTML5",
+      "Documentation Engine",
+      "Archival Systems"
+    ],
+    "summary": "The authoritative private archive chronicling career progression, technical achievements, operational logs, and institutional contributions of Pavan Kumar Sadashiv."
+  },
+  {
+    "id": 23,
+    "filename": "23-hrlpavan-profile.md",
+    "name": "hrlpavan",
+    "title": "Official GitHub Profile & Portfolio Hub",
+    "category": "Developer Portfolios & Identity",
+    "desc": "Official GitHub Profile & Executive Portfolio \u2014 Pavan Kumar Sadashiv (AI Chief Architect & Tech Lead).",
+    "html_url": "https://github.com/hrlpavan/hrlpavan",
+    "primary_lang": "HTML",
+    "languages": [
+      "HTML"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-30",
+    "highlights": [
+      "Interactive profile README with dynamic GitHub stats and streak telemetry",
+      "Categorized links to flagship open-source engines and repositories",
+      "Technical skill badges covering systems, cloud, AI, and graphics stacks",
+      "Professional biography and contact routing"
+    ],
+    "tech_stack": [
+      "Markdown",
+      "HTML",
+      "GitHub Actions Telemetry",
+      "Shields.io Badges"
+    ],
+    "summary": "The main public-facing GitHub profile repository serving as the gateway to Pavan Kumar Sadashiv's engineering ecosystem and open-source contributions."
+  },
+  {
+    "id": 24,
+    "filename": "24-hrl-sync-cli.md",
+    "name": "hrl-sync-cli",
+    "title": "HRL Sync CLI Toolchain",
+    "category": "Developer Tooling & DevOps",
+    "desc": "HRL Universal Ecosystem Synchronization & Rollout Toolchain.",
+    "html_url": "https://github.com/hrlpavan/hrl-sync-cli",
+    "primary_lang": "Python",
+    "languages": [
+      "Python",
+      "Shell"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-01",
+    "highlights": [
+      "Multi-repository git synchronization and upstream tracking in one command",
+      "Automated version tagging and semantic release management",
+      "Environment configuration consistency checker across machines",
+      "Zero-external-dependency standard library implementation"
+    ],
+    "tech_stack": [
+      "Python 3",
+      "Argparse",
+      "Subprocess Git Wrappers",
+      "Bash"
+    ],
+    "summary": "A lightweight, robust developer CLI built to synchronize, validate, and roll out changes across dozens of interconnected repositories in the HRL technology ecosystem."
+  },
+  {
+    "id": 25,
+    "filename": "25-DataBricks.md",
+    "name": "DataBricks",
+    "title": "Databricks Analytics & Big Data",
+    "category": "Cloud Data Engineering & Lakehouses",
+    "desc": "Databricks lakehouse workflows, distributed data processing, and cluster analytics.",
+    "html_url": "https://github.com/hrlpavan/DataBricks",
+    "primary_lang": "Python / SQL",
+    "languages": [
+      "Python",
+      "SQL",
+      "Apache Spark"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-08",
+    "highlights": [
+      "Apache Spark distributed DataFrame transformations",
+      "Delta Lake ACID transaction tables and time travel queries",
+      "Databricks workspace and cluster provisioning scripts",
+      "Optimized data partitioning and caching configurations"
+    ],
+    "tech_stack": [
+      "Databricks",
+      "Apache Spark",
+      "PySpark",
+      "Delta Lake",
+      "SQL"
+    ],
+    "summary": "A practical cloud analytics repository documenting high-throughput data transformations, Delta Lake optimizations, and PySpark job patterns on the Databricks platform."
+  },
+  {
+    "id": 26,
+    "filename": "26-Project-And-MileStone-Databricks.md",
+    "name": "Project-And-MileStone-Databricks",
+    "title": "Databricks Project & Milestone Pipeline",
+    "category": "Data Science & ETL Pipelines",
+    "desc": "End-to-End Enterprise Data Transformation Notebooks and Milestone Deliverables on Databricks.",
+    "html_url": "https://github.com/hrlpavan/Project-And-MileStone-Databricks",
+    "primary_lang": "Jupyter Notebook",
+    "languages": [
+      "Jupyter Notebook",
+      "Python",
+      "PySpark"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-08",
+    "highlights": [
+      "Step-by-step milestone notebooks covering data ingestion, cleaning, and aggregation",
+      "Integration of machine learning algorithms on distributed datasets",
+      "Automated quality assertions and missing value imputations",
+      "Visual analytics and business KPI dashboards"
+    ],
+    "tech_stack": [
+      "Jupyter Notebook",
+      "Databricks Runtime",
+      "PySpark MLlib",
+      "Matplotlib"
+    ],
+    "summary": "A structured academic and industrial milestone pipeline showcasing structured data engineering, feature extraction, and predictive modeling on Databricks clusters."
+  },
+  {
+    "id": 27,
+    "filename": "27-DSA.md",
+    "name": "DSA",
+    "title": "Data Structures & Algorithms Repository",
+    "category": "Core Computer Science",
+    "desc": "Master Data Structures & Algorithms Implementation Library in C, C++, and Python.",
+    "html_url": "https://github.com/hrlpavan/DSA",
+    "primary_lang": "C / C++",
+    "languages": [
+      "C",
+      "C++",
+      "Python"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-20",
+    "highlights": [
+      "Comprehensive implementations of Trees (BST, AVL, Red-Black) and Graphs",
+      "Classic dynamic programming, backtracking, and greedy algorithms",
+      "Memory-efficient data structures with rigorous pointer management in C",
+      "Time and space complexity profiling benchmarks"
+    ],
+    "tech_stack": [
+      "C",
+      "C++20",
+      "Python",
+      "Makefile",
+      "GDB"
+    ],
+    "summary": "An exhaustive reference library of fundamental and advanced data structures and algorithms, implemented with pristine code clarity, pointer safety, and asymptotic proofs."
+  },
+  {
+    "id": 28,
+    "filename": "28-exam-invigilation-dsa-app.md",
+    "name": "exam-invigilation-dsa-app",
+    "title": "Exam Invigilation DSA Allocation System",
+    "category": "Web Applications & Algorithmic Scheduling",
+    "desc": "Intelligent Exam Invigilation Management & Algorithmic Faculty Allocation Web Application.",
+    "html_url": "https://github.com/hrlpavan/exam-invigilation-dsa-app",
+    "primary_lang": "JavaScript",
+    "languages": [
+      "JavaScript",
+      "HTML",
+      "C",
+      "CSS"
+    ],
+    "visibility": "Private",
+    "created_at": "2026-08-10",
+    "highlights": [
+      "Bipartite matching and constraint satisfaction algorithm for conflict-free scheduling",
+      "Fair workload distribution preventing faculty fatigue and back-to-back shifts",
+      "Interactive web dashboard with drag-and-drop schedule modifications",
+      "Automated roster generation and timetable export"
+    ],
+    "tech_stack": [
+      "JavaScript",
+      "HTML5",
+      "CSS3",
+      "C Optimization Modules"
+    ],
+    "summary": "A practical full-stack application solving complex university exam invigilation logistics by pairing algorithmic constraint solvers with a clean, responsive faculty management UI."
+  },
+  {
+    "id": 29,
+    "filename": "29-IPA-AND-RPA-REPORT.md",
+    "name": "IPA-AND-RPA-REPORT",
+    "title": "Intelligent Process Automation & RPA Report",
+    "category": "Enterprise Automation & Research",
+    "desc": "In-Depth Technical Research Report on Intelligent Process Automation (IPA) and Robotic Process Automation (RPA).",
+    "html_url": "https://github.com/hrlpavan/IPA-AND-RPA-REPORT",
+    "primary_lang": "Documentation",
+    "languages": [
+      "Research Paper",
+      "Technical Analysis"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-19",
+    "highlights": [
+      "Comparative analysis of traditional rule-based RPA vs. cognitive IPA",
+      "Architectural patterns for human-in-the-loop exception handling",
+      "Cost-benefit metrics and ROI projection models for enterprise adoption",
+      "Security, governance, and bot credential management standards"
+    ],
+    "tech_stack": [
+      "Technical Research",
+      "IPA Frameworks",
+      "UiPath / BluePrism Analysis"
+    ],
+    "summary": "A rigorous technical research evaluation illuminating the convergence of artificial intelligence with robotic process automation to achieve end-to-end enterprise cognitive workflows."
+  },
+  {
+    "id": 30,
+    "filename": "30-Sahyadri-X-Project-HRL.md",
+    "name": "Sahyadri-X-Project-HRL",
+    "title": "Project Sahyadri X HRL",
+    "category": "Academic-Industry Collaboration",
+    "desc": "Specialized Academic-Industry Engineering Initiative & Collaborative Research at Sahyadri College of Engineering.",
+    "html_url": "https://github.com/hrlpavan/Sahyadri-X-Project-HRL",
+    "primary_lang": "Research / Systems",
+    "languages": [
+      "Collaboration Assets",
+      "Research Prototyping"
+    ],
+    "visibility": "Private",
+    "created_at": "2026-08-06",
+    "highlights": [
+      "Bridging cutting-edge industry software practices with collegiate research labs",
+      "Student mentorship and high-performance engineering workshops",
+      "Collaborative R&D on emerging AI and autonomous robotics projects",
+      "Institutional incubation support and hardware lab interfacing"
+    ],
+    "tech_stack": [
+      "Collaborative R&D",
+      "Embedded Systems",
+      "AI Workshops"
+    ],
+    "summary": "An innovative institutional partnership connecting Sahyadri College of Engineering & Management with HRL's elite development teams to foster next-generation engineering talent and prototypes."
+  },
+  {
+    "id": 31,
+    "filename": "31-My-Certificates.md",
+    "name": "My-Certificates",
+    "title": "Verified Credentials & Certifications",
+    "category": "Academic Accreditations & Honors",
+    "desc": "Official Verification Archive of Professional Technical Certifications, Licenses, and Academic Honors.",
+    "html_url": "https://github.com/hrlpavan/My-Certificates",
+    "primary_lang": "Credentials",
+    "languages": [
+      "Certifications",
+      "Verifiable Badges"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-08-19",
+    "highlights": [
+      "Verified credentials across Cloud Platforms, AI/ML, and Software Architecture",
+      "Academic transcripts, honors, and competitive programming achievements",
+      "Digital badges with verifiable cryptographic hashes and issuer links",
+      "Chronological skill acquisition timeline"
+    ],
+    "tech_stack": [
+      "Verifiable Credentials",
+      "Cloud Certifications",
+      "Accreditations"
+    ],
+    "summary": "The certified repository housing official credentials, diplomas, competitive programming awards, and vendor certifications validating the technical expertise of Pavan Kumar Sadashiv."
+  },
+  {
+    "id": 32,
+    "name": "HRL GOD's Command Line For Antigravity",
+    "title": "Hrl God'S Command Line For Antigravity",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: HRL GOD's Command Line For Antigravity",
+    "html_url": "https://github.com/hrlpavan/HRL GOD's Command Line For Antigravity",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for HRL GOD's Command Line For Antigravity"
+  },
+  {
+    "id": 33,
+    "name": "HRL X MAC X Windows VM Protocol Supercharged By LLM",
+    "title": "Hrl X Mac X Windows Vm Protocol Supercharged By Llm",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: HRL X MAC X Windows VM Protocol Supercharged By LLM",
+    "html_url": "https://github.com/hrlpavan/HRL X MAC X Windows VM Protocol Supercharged By LLM",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for HRL X MAC X Windows VM Protocol Supercharged By LLM"
+  },
+  {
+    "id": 34,
+    "name": "HRL-Company-Page-Announcement-Design",
+    "title": "Hrl Company Page Announcement Design",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: HRL-Company-Page-Announcement-Design",
+    "html_url": "https://github.com/hrlpavan/HRL-Company-Page-Announcement-Design",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for HRL-Company-Page-Announcement-Design"
+  },
+  {
+    "id": 35,
+    "name": "HRL-GODs-Command-Line-For-Antigravity",
+    "title": "Hrl Gods Command Line For Antigravity",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: HRL-GODs-Command-Line-For-Antigravity",
+    "html_url": "https://github.com/hrlpavan/HRL-GODs-Command-Line-For-Antigravity",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for HRL-GODs-Command-Line-For-Antigravity"
+  },
+  {
+    "id": 36,
+    "name": "HRL-X-MAC-X-Windows-VM-Protocol-Supercharged-By-LLM",
+    "title": "Hrl X Mac X Windows Vm Protocol Supercharged By Llm",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: HRL-X-MAC-X-Windows-VM-Protocol-Supercharged-By-LLM",
+    "html_url": "https://github.com/hrlpavan/HRL-X-MAC-X-Windows-VM-Protocol-Supercharged-By-LLM",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for HRL-X-MAC-X-Windows-VM-Protocol-Supercharged-By-LLM"
+  },
+  {
+    "id": 37,
+    "name": "HRL-X-UiPath",
+    "title": "Hrl X Uipath",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: HRL-X-UiPath",
+    "html_url": "https://github.com/hrlpavan/HRL-X-UiPath",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for HRL-X-UiPath"
+  },
+  {
+    "id": 38,
+    "name": "TensorRT-Model-Connect",
+    "title": "Tensorrt Model Connect",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: TensorRT-Model-Connect",
+    "html_url": "https://github.com/hrlpavan/TensorRT-Model-Connect",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for TensorRT-Model-Connect"
+  },
+  {
+    "id": 39,
+    "name": "all-projects-portfolio",
+    "title": "All Projects Portfolio",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: all-projects-portfolio",
+    "html_url": "https://github.com/hrlpavan/all-projects-portfolio",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for all-projects-portfolio"
+  },
+  {
+    "id": 40,
+    "name": "company-files-and-document",
+    "title": "Company Files And Document",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: company-files-and-document",
+    "html_url": "https://github.com/hrlpavan/company-files-and-document",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for company-files-and-document"
+  },
+  {
+    "id": 41,
+    "name": "hrl-brand-seo",
+    "title": "Hrl Brand Seo",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: hrl-brand-seo",
+    "html_url": "https://github.com/hrlpavan/hrl-brand-seo",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for hrl-brand-seo"
+  },
+  {
+    "id": 42,
+    "name": "hrl-executive-member-vault",
+    "title": "Hrl Executive Member Vault",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: hrl-executive-member-vault",
+    "html_url": "https://github.com/hrlpavan/hrl-executive-member-vault",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for hrl-executive-member-vault"
+  },
+  {
+    "id": 43,
+    "name": "hrl-legal-ip-dmca-policy",
+    "title": "Hrl Legal Ip Dmca Policy",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: hrl-legal-ip-dmca-policy",
+    "html_url": "https://github.com/hrlpavan/hrl-legal-ip-dmca-policy",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for hrl-legal-ip-dmca-policy"
+  },
+  {
+    "id": 44,
+    "name": "kit-app-template",
+    "title": "Kit App Template",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: kit-app-template",
+    "html_url": "https://github.com/hrlpavan/kit-app-template",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for kit-app-template"
+  },
+  {
+    "id": 45,
+    "name": "loremaster-ref",
+    "title": "Loremaster Ref",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: loremaster-ref",
+    "html_url": "https://github.com/hrlpavan/loremaster-ref",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for loremaster-ref"
+  },
+  {
+    "id": 46,
+    "name": "media-offline-bug-fix-by-hrl",
+    "title": "Media Offline Bug Fix By Hrl",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: media-offline-bug-fix-by-hrl",
+    "html_url": "https://github.com/hrlpavan/media-offline-bug-fix-by-hrl",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for media-offline-bug-fix-by-hrl"
+  },
+  {
+    "id": 47,
+    "name": "panopticon",
+    "title": "Panopticon",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: panopticon",
+    "html_url": "https://github.com/hrlpavan/panopticon",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for panopticon"
+  },
+  {
+    "id": 48,
+    "name": "profile-repo",
+    "title": "Profile Repo",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: profile-repo",
+    "html_url": "https://github.com/hrlpavan/profile-repo",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for profile-repo"
+  },
+  {
+    "id": 49,
+    "name": "rtx-localai-runtime",
+    "title": "Rtx Localai Runtime",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: rtx-localai-runtime",
+    "html_url": "https://github.com/hrlpavan/rtx-localai-runtime",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for rtx-localai-runtime"
+  },
+  {
+    "id": 50,
+    "name": "sih-2026-media",
+    "title": "Sih 2026 Media",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: sih-2026-media",
+    "html_url": "https://github.com/hrlpavan/sih-2026-media",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for sih-2026-media"
+  },
+  {
+    "id": 51,
+    "name": "sih-2026-media-guide",
+    "title": "Sih 2026 Media Guide",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: sih-2026-media-guide",
+    "html_url": "https://github.com/hrlpavan/sih-2026-media-guide",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for sih-2026-media-guide"
+  },
+  {
+    "id": 52,
+    "name": "v12-engine-hrl",
+    "title": "V12 Engine Hrl",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: v12-engine-hrl",
+    "html_url": "https://github.com/hrlpavan/v12-engine-hrl",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for v12-engine-hrl"
+  },
+  {
+    "id": 53,
+    "name": "v12-engine-repo",
+    "title": "V12 Engine Repo",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: v12-engine-repo",
+    "html_url": "https://github.com/hrlpavan/v12-engine-repo",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for v12-engine-repo"
+  },
+  {
+    "id": 54,
+    "name": "google-earth-mcp",
+    "title": "Google Earth Mcp",
+    "category": "Autonomous Systems / Tools",
+    "desc": "Active ecosystem project: google-earth-mcp",
+    "html_url": "https://github.com/hrlpavan/google-earth-mcp",
+    "primary_lang": "TypeScript / Python",
+    "languages": [
+      "Python",
+      "TypeScript"
+    ],
+    "visibility": "Public",
+    "created_at": "2026-09-23",
+    "highlights": [
+      "Integrated into HRL International ecosystem"
+    ],
+    "tech_stack": [
+      "Python",
+      "TypeScript"
+    ],
+    "summary": "Automated tracking entry for google-earth-mcp"
+  }
+]
