@@ -503,7 +503,46 @@ def run_sync_for_date(workspace, daily_updates_dir, target_date, registry, custo
                 spotlight_bullets.append(f"**`{p_name}` ({reg_t})**:\n  {first_c}")
 
     update_readme_index(daily_updates_dir, target_date, title, projects_str, spotlight_bullets)
-    print(f"    [OK] Updated README.md index & spotlight for {target_date}.")
+
+    # High-signal terminal console output
+    print("\n" + "=" * 65)
+    print(f"📊 ECOSYSTEM ACTIVITY CONSOLE: {target_date}")
+    print(f"🎯 Milestone / Theme: {title}")
+    print("=" * 65)
+
+    active_items = [(name, act) for name, act in activities.items() if act.get("commits") or act.get("uncommitted") or act.get("files")]
+
+    if not active_items:
+        print("  [i] No active changes or commits detected.")
+    else:
+        for name, act in active_items:
+            commits = act.get("commits", [])
+            uncommitted = act.get("uncommitted", [])
+            files = act.get("files", [])
+            reg_t = registry.get(name, {}).get("title", name)
+
+            print(f"\n🚀 {name} ({reg_t})")
+            if commits:
+                print("   Commits:")
+                for c in commits:
+                    print(f"     • [{c['hash']}] {c['time']} - {c['message']}")
+            if uncommitted:
+                print(f"   Active Working Changes ({len(uncommitted)} items):")
+                for st, f in uncommitted[:5]:
+                    print(f"     • [{st}] {f}")
+                if len(uncommitted) > 5:
+                    print(f"       ... and {len(uncommitted) - 5} more active files")
+            elif files and not commits:
+                print(f"   Modified Files ({len(files)} items):")
+                for f in files[:3]:
+                    print(f"     • {f}")
+                if len(files) > 3:
+                    print(f"       ... and {len(files) - 3} more files")
+
+    print("\n" + "-" * 65)
+    print(f"  [✓] Generated log: updates/{target_date}.md")
+    print(f"  [✓] Updated master README.md index & spotlight")
+    print("=" * 65 + "\n")
 
     return title, projects_str
 
