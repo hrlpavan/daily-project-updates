@@ -18,6 +18,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 
 
 KNOWN_DATE_TITLES = {
@@ -78,6 +79,14 @@ def parse_args():
         "--title",
         default=None,
         help="Custom title / milestone theme for the date",
+    )
+    parser.add_argument(
+        "--watch",
+        type=int,
+        nargs="?",
+        const=60,
+        default=None,
+        help="Run continuously in watch mode, checking for new commits every N seconds (default: 60)",
     )
     return parser.parse_args()
 
@@ -435,21 +444,24 @@ def git_push_updates(repo_dir, message):
     env["GIT_CONFIG_GLOBAL"] = "/dev/null"
     env["GIT_CONFIG_NOSYSTEM"] = "1"
 
-    print("\n[+] Staging and committing daily updates...")
     subprocess.run(["git", "add", "."], cwd=repo_dir, check=True, env=env)
     st = subprocess.run(["git", "status", "--porcelain"], cwd=repo_dir, capture_output=True, text=True, env=env)
     if st.stdout.strip():
+        print("\n[+] Staging and committing daily updates...")
         subprocess.run(["git", "commit", "-m", message], cwd=repo_dir, check=True, env=env)
         print(f"    [OK] Committed: {message}")
     else:
-        print("    [!] Working directory clean; no new changes to commit.")
+        unpushed = subprocess.run(["git", "log", "@{u}..HEAD", "--oneline"], cwd=repo_dir, capture_output=True, text=True, env=env)
+        if not unpushed.stdout.strip():
+            print("    [!] Working tree clean and up to date with remote.")
+            return True
 
     print("[+] Pushing updates to origin/main...")
     res = subprocess.run(["git", "push", "origin", "main"], cwd=repo_dir, capture_output=True, text=True, env=env)
     if res.returncode == 0:
         print("    [OK] Successfully pushed to origin/main!")
     else:
-        print(f"    [!] Git push error: {res.stderr or res.stdout}")
+        print(f"    [!] Git push note: {res.stderr or res.stdout}")
         return False
     return True
 
@@ -496,12 +508,7 @@ def run_sync_for_date(workspace, daily_updates_dir, target_date, registry, custo
     return title, projects_str
 
 
-def main():
-    args = parse_args()
-    workspace = os.path.abspath(args.workspace_dir)
-    daily_updates_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    registry = load_projects_registry(daily_updates_dir)
-
+def execute_sync(args, workspace, daily_updates_dir, registry):
     dates_to_process = [args.date]
 
     if args.all_missing:
@@ -522,8 +529,6 @@ def main():
         if args.date not in dates_to_process:
             dates_to_process.append(args.date)
 
-        print(f"[*] Processing dates: {dates_to_process}")
-
     synced_dates = []
     for d in dates_to_process:
         res = run_sync_for_date(workspace, daily_updates_dir, d, registry, custom_title=args.title, dry_run=args.dry_run)
@@ -535,9 +540,32 @@ def main():
         commit_msg = f"feat(daily-update): sync engineering log for {target_summary}"
         git_push_updates(daily_updates_dir, commit_msg)
 
-    print("\n✅ Daily project updates sync complete!")
+
+def main():
+    args = parse_args()
+    workspace = os.path.abspath(args.workspace_dir)
+    daily_updates_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+    registry = load_projects_registry(daily_updates_dir)
+
+    if args.watch:
+        interval = args.watch
+        print(f"[*] Starting continuous auto-sync daemon (polling every {interval}s)...")
+        print("[*] Press Ctrl+C to terminate.")
+        while True:
+            try:
+                execute_sync(args, workspace, daily_updates_dir, registry)
+            except KeyboardInterrupt:
+                print("\n[!] Watch daemon stopped by user.")
+                break
+            except Exception as e:
+                print(f"[!] Error in sync cycle: {e}")
+            time.sleep(interval)
+    else:
+        execute_sync(args, workspace, daily_updates_dir, registry)
+        print("\n✅ Daily project updates sync complete!")
 
 
 if __name__ == "__main__":
     main()
+
 
