@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+# ==============================================================================
+# 🚀 HRL Universal Quick-Sync Protocol
+# Chief Architect: Pavan Kumar Sadashiv (Founder & MD, HRL International)
+# ==============================================================================
+# One-command fast aggregator:
+# 1. Scans all 54+ workspace repos for commits & active artifacts
+# 2. Automatically generates updates/YYYY-MM-DD.md
+# 3. Updates root README.md index table and engineering spotlight
+# 4. Git commits and pushes to origin/main on GitHub
+# ==============================================================================
+
+set -e
+DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+export GIT_CONFIG_GLOBAL="/dev/null"
+export GIT_CONFIG_NOSYSTEM="1"
+
+echo "⚡ [HRL Quick-Update] Aggregating ecosystem changes..."
+python3 "$DIR/scripts/sync_daily_updates.py" --all-missing --push "$@"
+echo "🌟 [HRL Quick-Update] All changes synced live to https://github.com/hrlpavan/daily-project-updates"
