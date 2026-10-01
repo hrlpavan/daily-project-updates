@@ -24,6 +24,13 @@ Every day, engineering deliverables are systematically documented, verified, and
 
 ---
 
+## ⚡ The Agentic Engineering Manifesto
+
+> 📖 **Read the Full Manifesto**: [**Why Manual Bug Fixing Makes You a Stone Age Developer & The 100x Agentic Workflow**](THE_AGENTIC_ENGINEERING_MANIFESTO.md)  
+> *A technical breakdown on why 1990s manual debugging is obsolete, the 5-step self-healing agentic loop, architectural decisions from enterprise multi-repo audits, and the essential daily IDE extension stack.*
+
+---
+
 ## 📅 Daily Updates Index
 
 | Date | Title / Primary Focus | Key Projects | Report Link | Status |
