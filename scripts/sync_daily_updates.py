@@ -26,6 +26,8 @@ KNOWN_DATE_TITLES = {
     "2026-09-27": "Corporate Operating Charter, Client Data Security & IBR Announcement",
     "2026-09-28": "HRL-X-FAQ Launch, NVIDIA & Google Hiring Dossier & Cloud Sync",
     "2026-09-29": "Guinness World Records Concept & Automated Quick-Sync Engine",
+    "2026-09-30": "Nirman-Drishti Autonomous Forensic Auditor Launch & Hackathon Submission",
+    "2026-10-01": "Antigravity IDE Binary Plist & Encoding Bug Fixes, Full Developer Stack & MCP Integration",
 }
 
 KNOWN_DATE_HIGHLIGHTS = {
@@ -44,6 +46,14 @@ KNOWN_DATE_HIGHLIGHTS = {
     "2026-09-29": [
         "**🏎️ Guinness World Records (GWR) Technical Concept (`v12-engine-hrl`)**:\n  Updated GWR evaluation concept, 9-language architecture specification, and formal adjudicator response correspondence (`fcfb2c0`).",
         "**⚡ Universal Quick-Sync Automation (`daily-project-updates`)**:\n  Engineered `quick-update` zero-click automated engineering log synchronization engine, enabling instantaneous one-command ecosystem commit aggregation, README spotlight generation, and auto-pushing to GitHub."
+    ],
+    "2026-09-30": [
+        "**🏗️ Nirman-Drishti Autonomous Forensic Auditor Launch (`nirman-drishti`)**:\n  Published official hackathon submission materials, full architectural presentation slide deck PDF, and automated pipeline verification for AI-driven construction auditing."
+    ],
+    "2026-10-01": [
+        "**🛠️ Panopticon Binary Plist & Encoding Bug Fix (`panopticon`)**:\n  Resolved Antigravity IDE workspace errors where macOS property lists (`.plist`) and GIS tables failed to render. Converted binary plists to standard XML 1.0 UTF-8, transcoded legacy Latin-1 data tables, and deployed `.vscode/settings.json` with automatic encoding detection (`files.autoGuessEncoding: true`) and custom GIS/Apple format mappings (`9fdd09a`).",
+        "**⚡ Ultimate Developer Stack & Autonomous Agents (`Antigravity IDE`)**:\n  Installed and verified the full developer extension stack: Roo Code multi-role autonomous agent (`v3.54.0`), Ralph Loop iterative verification engine (`v0.6.4`), CodeRabbit real-time AST pre-commit reviewer (`v0.21.9`), and Get Shit Done (GSD `v1.42.3`) spec-driven framework. Configured 6 Model Context Protocol (MCP) servers (`github`, `filesystem`, `fetch`, `memory`, `sequential-thinking`, `google-earth`).",
+        "**🌐 Telemetry Proxy & Offline Resilience (`panopticon`)**:\n  Integrated timeout-resilient error handling and middleware into Vite dev server for Celestrak, OpenSky, and USGS seismic endpoints, preventing upstream drops from stalling real-time telemetry."
     ]
 }
 
