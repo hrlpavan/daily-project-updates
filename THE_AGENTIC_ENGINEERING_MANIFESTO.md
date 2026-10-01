@@ -1,4 +1,4 @@
-# 🔥 The Agentic Engineering Manifesto: Why Manual Bug Fixing Makes You a Stone Age Developer
+#  The Agentic Engineering Manifesto: Why Manual Bug Fixing Makes You a Stone Age Developer 🔥
 *From 1990s Manual Patchwork to Autonomous Agentic Self-Healing*
 
 ---
