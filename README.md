@@ -76,6 +76,7 @@ Every day, engineering deliverables are systematically documented, verified, and
 👉 **Read the full daily breakdown in [`updates/2026-10-25.md`](updates/2026-10-25.md)**.
 👉 **Explore the new tech stack guide in [`TECH_STACK_GITLAB_SOLVING.md`](TECH_STACK_GITLAB_SOLVING.md)**.
 👉 **Read the Dev.to article draft in [`DEVTO_GITLAB_AGENTIC_STACK.md`](DEVTO_GITLAB_AGENTIC_STACK.md)**.
+👉 **Read why HRL is 100x faster than traditional devs: [`DEVTO_WHY_HRL_IS_FASTER_AT_GITLAB.md`](DEVTO_WHY_HRL_IS_FASTER_AT_GITLAB.md)**.
 
 ---
 
