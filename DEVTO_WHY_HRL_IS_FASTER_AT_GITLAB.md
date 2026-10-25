@@ -3,7 +3,7 @@ title: Why HRL Ships 100x Faster Than Traditional Developers at GitLab: The Secr
 published: false
 description: How HRL International shipped 15 green upstream MRs across Ruby, TypeScript, and Python in a single day to GitLab, racking up 4,197+ points with zero-excuses agentic velocity.
 tags: gitlab, opensource, productivity, programming
-canonical_url: https://github.com/hrlpavan/daily-project-updates/blob/main/updates/2026-10-25.md
+canonical_url: https://github.com/hrlpavan/daily-project-updates/blob/main/DEVTO_WHY_HRL_IS_FASTER_AT_GITLAB.md
 ---
 
 Contributing to massive, enterprise-scale open-source platforms like **GitLab** is notoriously intimidating. 
