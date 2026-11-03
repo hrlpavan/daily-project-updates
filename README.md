@@ -35,6 +35,7 @@ Every day, engineering deliverables are systematically documented, verified, and
 
 | Date | Title / Primary Focus | Key Projects | Report Link | Status |
 | :---: | :--- | :--- | :---: | :---: |
+| **`2026-11-03`** | **Update MCP save_note update_note contract per #632622 feedback** | `hrlpavan`, `gitlab-source` | [**Read Log**](updates/2026-11-03.md) | `Verified` |
 | **`2026-11-02`** | **Release TinyFC20 Rev C1 production package with 0 DRC,...** | `hrlpavan`, `cadence-remote-mcp` | [**Read Log**](updates/2026-11-02.md) | `Verified` |
 | **`2026-11-01`** | **Document ungovernable route setting for route-backed MCP tools** | `gitlab-source`, `kicad-antigravity-project` | [**Read Log**](updates/2026-11-01.md) | `Verified` |
 | **`2026-10-26`** | **Address review comments on virtual workspace tracker key** | `hrlpavan`, `gitlab-lsp`, `hrl-brand-seo` | [**Read Log**](updates/2026-10-26.md) | `Verified` |
@@ -68,14 +69,16 @@ Every day, engineering deliverables are systematically documented, verified, and
 
 
 
+
 ---
 
-## 🚀 Today's Engineering Spotlight: November 02, 2026
+## 🚀 Today's Engineering Spotlight: November 03, 2026
 
-- **`cadence-remote-mcp` (cadence-remote-mcp)**:
-  feat(hardware): release TinyFC20 Rev C1 production package with 0 DRC, complete BOM, and Betaflight target
+- **`gitlab-source` (gitlab-source)**:
+  Update MCP save_note update_note contract per #632622 feedback
 
-👉 **Read the full daily breakdown in [`updates/2026-11-02.md`](updates/2026-11-02.md)**.
+👉 **Read the full daily breakdown in [`updates/2026-11-03.md`](updates/2026-11-03.md)**.
+
 
 
 
